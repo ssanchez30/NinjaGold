@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(211, 204, 204);
+    margin: 2.5em;
+    width: 75%;
+    padding: 30px 30px;
+}
+
+.scoreDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pScore{
+    color: black;
+    margin-left: 0.45em;
+    margin: 0;
+}
+
+.placesDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.placesDiv >p{
+    margin: 0;
+}
+
+.place{
+    border: 2px solid black; 
+    padding: 1.875em 2.5em;
+    text-align: center;
+}
+
+.farm{
+    background-color: forestgreen;
+}
+
+.cave{
+    background-color: lightslategray;
+}
+
+.house{
+    background-color: indigo;
+}
+
+h2{
+    margin-bottom: 1.25em;
+}
+
+.casino{
+    background-color: fuchsia;
+}
+
+button{
+    margin-top: 0.625em;
+    background-color: gold;
+    padding: 0.3125em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(211, 182, 20);
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+.logDiv{
+    border: 2px solid black;
+    height: 6.25em;
+    overflow: auto;
+    margin: 0.625em 0em;
+}
+
+.logDiv >p{
+    color: black;
+    padding: 0.3125em 0 0 0.3125em;
+}
+
+h3{
+    margin: 0.9375em 1.875em 0.3125em 0.5em;
+}
+
+span{
+    border: 2px solid black;
+    display: inline-block;
+    width: 15em;
+    padding-left: 0.3125em;
+}
+
+.btnReset{
+    background-color: red;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.earn{
+    color: green!important;
+}
+
+.loss{
+    color:red!important;
+}
+
+.btnReset{
+    display: block;
+}
+
+button:disabled{
+    background-color: grey;
+    color: white;
+}
+
+.highScore >p{
+    color: black;
+}
+
+
